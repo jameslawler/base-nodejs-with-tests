@@ -1,0 +1,14 @@
+{
+  "name": "base-nodejs-with-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --colors *.spec.js",
+    "test:watch": "npm test -- --watch --check-leaks"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
